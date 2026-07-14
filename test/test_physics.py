@@ -3,9 +3,9 @@ import os
 import sys
 import math
 
-sys.path.insert(0, os.path.dirname(__file__))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from src.physics import (angular_velocity, mechanical_power,
-                     temp_gradient, cumulative_strain)
+                         temp_gradient, cumulative_strain)
 
 
 def _approx(a, b, tol=1e-9):
