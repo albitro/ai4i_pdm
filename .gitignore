@@ -13,7 +13,7 @@ env/
 config.local.py
 docs/
 PROGRESS.md
-README.md
+README_progress.md
 
 # OS
 Thumbs.db
